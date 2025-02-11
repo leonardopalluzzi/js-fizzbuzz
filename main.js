@@ -13,5 +13,13 @@ let restThree;
 let restFive;
 
  for (let i = 1; i <= n; i++){
-    
+    restThree = i % 3;
+    restFive = i % 5;
+    if (restThree == 0){
+        console.log(`${i} Fizz`);
+    } else if (restFive == 0){
+        console.log(`${i} Buzz`);  
+    } else if (restThree == 0 && restFive == 0) {
+        console.log(`${i} FizzBuzz`);
+    }
  }
