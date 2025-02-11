@@ -19,10 +19,10 @@ let restFive;
     restThree = i % 3;
     restFive = i % 5;
     // rest check
-    if (restThree == 0 && restFive == 0){
+    if (restThree == 0 && restFive == 0) {
         // multiples of three and five
         console.log(`${i} FizzBuzz`);
-    } else if (restFive == 0){
+    } else if (restFive == 0) {
         // multiples of five
         console.log(`${i} Buzz`);  
     } else if (restThree == 0) {
